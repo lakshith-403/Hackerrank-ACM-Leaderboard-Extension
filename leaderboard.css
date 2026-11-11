@@ -1,0 +1,35 @@
+#hracm-open {
+  position: fixed; right: 16px; bottom: 16px; z-index: 2147483000;
+  background: #1ba94c; color: #fff; border: 0; border-radius: 6px;
+  padding: 10px 14px; font: 600 13px/1 system-ui, sans-serif; cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,.25);
+}
+#hracm-root {
+  position: fixed; inset: 0; z-index: 2147483001; background: #f5f6f8; color: #1f2329;
+  overflow: auto; font: 13px/1.4 system-ui, -apple-system, sans-serif;
+}
+#hracm-root[hidden] { display: none; }
+#hracm-root * { box-sizing: border-box; }
+.hracm-bar {
+  position: sticky; top: 0; z-index: 2; display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+  padding: 10px 16px; background: #0e141e; color: #fff;
+}
+.hracm-bar input:not([type=checkbox]) { padding: 5px 8px; border-radius: 4px; border: 1px solid #39424e; background: #1d2633; color: #fff; }
+.hracm-bar button { padding: 5px 10px; border-radius: 4px; border: 0; background: #1ba94c; color: #fff; cursor: pointer; font-weight: 600; }
+.hracm-bar label { display: flex; gap: 5px; align-items: center; }
+#hracm-status { color: #b7c0cc; flex: 1; }
+#hracm-close { background: transparent !important; font-size: 16px; }
+.hracm-rule, .hracm-meta { padding: 8px 16px; color: #576071; }
+.hracm-rule { background: #e9edf2; }
+.hracm-table { border-collapse: collapse; margin: 0 16px 24px; background: #fff; min-width: calc(100% - 32px); }
+.hracm-table th, .hracm-table td { border: 1px solid #e1e4e8; padding: 6px 10px; text-align: center; white-space: nowrap; }
+.hracm-table thead th { position: sticky; top: 52px; background: #fff; z-index: 1; }
+.hracm-table tbody tr:hover { background: #f0f7ff; }
+.hracm-sub { font-size: 11px; color: #6a7380; font-weight: 400; max-width: 140px; overflow: hidden; text-overflow: ellipsis; margin: 0 auto; }
+.hracm-user { text-align: left !important; }
+.hracm-user a { color: #0b66c3; text-decoration: none; }
+.hracm-total { font-weight: 700; }
+.hracm-ok { background: #e3f6e8; }
+.hracm-first { background: #9fe0b2; }
+.hracm-bad { background: #fde8e8; }
+.hracm-empty { color: #6a7380; padding: 24px !important; }
