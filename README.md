@@ -153,3 +153,7 @@ docs/images/       README screenshots
 | `Error: 403` or `401` | The signed-in account isn't a moderator of this contest. |
 | "No submissions counted yet" but there are submissions | They are outside the contest window. That's usual before a contest starts, when only test submissions exist. Use **Include outside window** or **Start override** to see them. |
 | Scores for an old contest look wrong | Its start or end time was probably edited after the contest. Set **Start override** and **Duration** to the real values. |
+
+## License
+
+[MIT](LICENSE). This project is not affiliated with or endorsed by HackerRank.
