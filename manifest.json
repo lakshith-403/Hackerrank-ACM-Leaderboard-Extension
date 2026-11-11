@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "HackerRank ACM Leaderboard",
   "version": "1.0.0",
-  "description": "Rebuilds a contest leaderboard from judge submissions using the NSSC scoring rule.",
+  "description": "Rebuilds a contest leaderboard from judge submissions using a time-weighted scoring rule.",
   "content_scripts": [
     {
       "matches": ["https://www.hackerrank.com/*"],

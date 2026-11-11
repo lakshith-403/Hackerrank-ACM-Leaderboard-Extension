@@ -2,7 +2,7 @@
 
 A Chrome extension that rebuilds a HackerRank contest leaderboard straight from the judge submissions.
 
-HackerRank's built-in ACM leaderboard has become unreliable. This extension ignores it: it reads every submission in the contest and computes the ranking itself, using a time-weighted scoring rule. It was built for the National Schools' Software Competition (NSSC) in Sri Lanka, but it works for any HackerRank contest you moderate.
+HackerRank's built-in ACM leaderboard has become unreliable. This extension ignores it: it reads every submission in the contest and computes the ranking itself, using a time-weighted scoring rule. It works for any HackerRank contest you moderate.
 
 ![Leaderboard overlay](docs/images/leaderboard.png)
 
